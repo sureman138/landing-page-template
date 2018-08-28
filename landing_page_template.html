@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="icon" type="image/png" href="favicon.png" sizes="22x20">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			position:relative;
+			background-image: url(jumboBackground.png);
+			background-position:center;
+			background-attachment:fixed;
+			background-repeat: no-repeat;
+			background-size:cover;
+		
+		}
+		.jumbotron {
+			text-align:center;
+			margin: 0 auto;
+			position: relative;
+		}
+		#jumboOne {
+			margin-top:50px;
+			background-image: url(jumboBackground.png);
+			background-position:center;
+			background-attachment:fixed;
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		#jumboTwo {
+			
+			background-color:white;
+		}
+		.input-group-addon {
+			margin-right: 10px;
+			padding-top:5px;
+		}
+		hr {
+			border-color:#9ab9ea;
+		}
+		
+		#leadTwo {
+			font-size:17px;
+		}
+		i {
+			float:left;
+			margin-right:10px;
+			padding-top:4px;
+		}	
+		
+		.card-deck {
+			margin-bottom:50px;
+		}
+		.card-img-top {
+			width:100%;
+		}
+		
+		#footerContainer {
+			
+			position:relative;
+			text-align:center;
+			height:400px;
+			
+		}
+		#footerText {
+			background-image: url(jumboBackground.png);
+			background-position:center;
+			background-attachment:fixed;
+			background-repeat: no-repeat;
+			background-size:cover;
+			padding-top:150px;
+			color:white;
+		}
+			
+	</style>
+    <!-- Bootstrap CSS -->
+    
+
+    <title>My App</title>
+  </head>
+ <body data-spy="scroll" data-target=".navbar" data-offset="70">
+	<div id="navContainer">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  <a class="navbar-brand" href="#">MyApp</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="#jumboOne">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#jumboTwo">About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#footerContainer">Download The App</a>
+		  </li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+		</form>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+		  <button class="btn btn-success btn-primary my-2 my-sm-0" type="submit">Login</button>
+		</form>
+	  </div>
+	</nav>
+	</div>
+	
+	
+	<div class="jumbotron" id="jumboOne">
+			<h1 class="display-3">My Awesome App!</h1>
+			<p class="lead">This is why YOU should download this fantastic app!</p>
+			<hr class="my-4">
+			<p style="color:white">Want to know more? Join our mailing list!</p>
+			<form class="form-inline justify-content-center">
+				<label class="sr-only" for="yourEmail">Email</label>
+				<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+					<div class="input-group-addon" style="color:white">@</div>
+					<input type="text" class="form-control" id="yourEmail" placeholder="Your Email">
+				</div>
+				<button type="button" class="btn btn-primary my-2 my-sm-0">Sign Up</button>
+		  </form>
+	</div>
+	<div class="jumbotron" id="jumboTwo">
+		<h2>Why This App Is Awesome</h2>
+		<p class="lead" id="leadTwo">Summary, once again, of your app's awesomeness</p>
+	</div>
+		<div class="card-deck" id="cardOne">
+	  <div class="card">
+		<img class="card-img-top" src="space.png" alt="Card image cap">
+		<div class="card-body">
+		<i class="fa fa-camera-retro"></i>
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		  
+		</div>
+	  </div>
+	  <div class="card">
+		<img class="card-img-top" src="space.png" alt="Card image cap">
+		<div class="card-body">
+		<i class="fa fa-battery-4"></i>
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		  
+		</div>
+	  </div>
+	  <div class="card" id="cardThree">
+		<img class="card-img-top" src="space.png" alt="Card image cap">
+		<div class="card-body">
+		<i class="fa fa-bolt"></i>
+		  <h5 class="card-title">Card title</h5>
+		  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		  
+		</div>
+	  </div>
+	</div>
+	
+	<div id="footerContainer">
+		<div id="footerText">
+			<h3>Download the app!</h3>
+			<p class="lead">Really, why should I download the app??</p>
+			<a href="#"> <img src="apple.png"> </a>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  
+</html>
